@@ -1,0 +1,23 @@
+
+{{#each erros}}
+    <div class=" alert alert-danger">{{texto}}</div>
+{{else}}
+
+{{/each}}
+
+    <div class="container">
+        
+        <form action="/admin/classe/nova" class="form" method="POST">
+            <div class="form-header">
+                <h3 class="form-title"> Cadastro de Classe de Veiculo:</h3>
+            </div>
+
+            <label for="nome" class="form-label">Nome da Classe:</label>
+            <input type="text" class="form-input" name="nome" id="nome" placeholder="insira o nome">
+
+            <label for="preco" class="form-label">Preco:</label>
+            <input type="number" class="form-input" name="preco" id="preco" placeholder="insira o nome">
+           
+            <button type="submit" class="btn-submit">Enviar</button>
+        </form>
+    </div>

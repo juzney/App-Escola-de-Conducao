@@ -1,0 +1,141 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    background: url(../img/classe.jpg);
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.container .form .form-header .form-title .containe .for {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #ceb4b4;
+    text-align: center;
+    padding: 14px 0;
+}
+
+.form-title1 {
+    font-weight: normal;
+    font-family: sans-serif;
+    color: #ceb4b4;
+    text-align: left;
+    padding: 14px 0;
+
+}
+
+
+.container .form .form-header .form-title span .containe .for{
+   color: chartreuse;
+} 
+
+.container .form {
+    background-color: rgba(8, 97, 104, 0.6);
+    width: 90%;
+    max-width: 800px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 0;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    margin-bottom: 120px;
+    height: 650px;
+    
+}
+
+
+.containe .for {
+    background-color: rgba(8, 97, 104, 0.6);
+    width: 90%;
+    max-width: 900px;
+    margin: auto;
+    padding: 5px 35px;
+    margin-top: 0;
+    padding-bottom: 2px;
+    border-radius: 3px;
+    margin-bottom: 120px;
+    height: 1000px;
+    
+}
+
+
+
+
+.container .form .form-label .containe .for  {
+
+    display: block;
+    color: #ceb4b4;
+    font-size: 16px;
+    font-family: sans-serif; 
+    position: relative;
+}
+
+
+.btn-custom {
+
+    padding: 1px 15px 3px 2px;
+    border-radius: 50px;
+
+}
+
+.btn-icon{
+
+    padding: 8px;
+    background: #ffffff;
+}
+
+.container .form .form-input .containe .for {
+
+    background-color: rgba(25, 56, 68, 0.7);
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    border-bottom: 2px solid brown;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: cornsilk;
+    font-family: monospace;
+}
+
+.select-input {
+    background-color: rgba(25, 56, 68, 0.7);
+    border: none;
+    outline: none;
+    width: 100%;
+    padding: 12px;
+    border-bottom: 2px solid brown;
+    margin-bottom: 20px;
+    border-radius: 2px;
+    font-size: 14px;
+    color: cornsilk;
+    font-family: monospace;
+}
+
+.container .form .btn-submit .containe .for {
+
+    width: 100%;
+    font-family: sans-serif;
+    outline: none;
+    background: rgba(181, 185, 185, 0.533);
+    font-size: 16px;
+    border: none;
+    padding: 15px 0;
+    color: cornsilk;
+    cursor: pointer;
+
+    transition: all .5s ease;
+}
+
+.container .form .btn-submit:hover .containe .for  {
+    background: rgba(80, 75, 59, 0.533);
+
+}

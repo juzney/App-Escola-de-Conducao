@@ -1,0 +1,46 @@
+{{#each classes}}
+    <div class="card">
+
+        <div class="card-body">
+
+            <div class="container">       
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Classe de Veiculo</th>
+                    <th>Preco</th>
+                    <th >Acoes</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr>
+                    <td>{{nome}}</td>
+                    <td>{{preco}}Mts</td>
+                    <td>
+                        <div class="row" >
+                        
+                        <a href="#" class="btn btn-primary btn-custom">
+                            
+                            <span class="glyphicon glyphicon-ok img-circle text-primary btn-icon"></span>
+                        acessar
+                        </a>
+                        
+                        <a href="/admin/classe/edit/{{_id}}"><button class="btn btn-success"> editar</button></a>
+                        <form action="/admin/classe/delet" method="post">
+                            <input type="hidden" name="id" value="{{_id}}">
+                            <button class="btn btn-danger" type="submit">deletar</button>
+                        </form>
+                        </div>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+       </div>  
+
+    </div>
+
+{{else}}
+
+{{/each}}
